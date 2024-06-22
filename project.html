@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: black;
+            color: aliceblue;
+      
+        }
+        a:hover{
+            color: cadetblue;
+            text-decoration: underline;
+            
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        ul{
+            list-style-type: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <center>
+            <h1>Prajwal G H</h1>
+            <a href="./index.html">Home</a> &nbsp &nbsp  &nbsp  <a href="./About.html">About </a> &nbsp &nbsp &nbsp<a href="./Education.html">Education</a> &nbsp;&nbsp;&nbsp;<a href="./certificates.html">Certificates</a>&nbsp;&nbsp;&nbsp; <a href="./project.html">Projects</a> &nbsp &nbsp &nbsp <a href="./contact.html">Contact</a>
+          
+            <p>Welcome To my Proffestional portfolio</p>
+    
+    
+        </center>
+      </div>
+
+
+        <center>
+            <h1>My Projects</h1>
+
+            <p><B>Project 1: Gesture Controlled Audio System </B></p>
+            <p> Users can interact with the system by bending the flex sensors to trigger
+                specific audio responses. Each bending gesture corresponds to a unique audio file, enabling users to
+                control the audio playback and generate different sounds based on their
+                gestures.Users can also interact with the system through voice commands by
+                producing loud sounds detected by the microphone.
+                The system responds to loud sounds by playing predefined audio files,
+                enhancing user engagement and interaction.The system provides auditory feedback through the speaker, confirming
+                the successful detection and execution of user gestures and voice
+                commands.
+                 The audible responses help users understand and navigate the system,
+                enhancing the overall user experience.
+                 </p>
+                <p>SOFTWARE IMPLEMENTATION  </p>           
+        <p>Initialization:
+            <p>Upon powering on, the Arduino initializes the flex sensors, 
+            microphone,MP3 module, and audio amplifier.
+            The system performs a startup routine to ensure all components are
+            functioning correctly.
+             Sensor Input Detection:
+            The Arduino continuously reads the analog values from the flex sensors
+            and microphone.
+            Based on the sensor readings, the Arduino identifies the type of gesture
+            performed by the user (bending a flex sensor) or detects a loud sound
+            from the microphone.
+             Gesture Recognition:
+             When a flex sensor detects a bending gesture (e.g., bending a specific
+            finger), the Arduino triggers a corresponding audio file to play through the
+            speaker via the MP3 module.
+            Each flex sensor is associated with a unique audio file, allowing for
+            distinct sound responses to different bending gestures.
+            Voice Command Recognition:
+             If the microphone detects a sound above the predefined threshold, the
+            Arduino activates a specific audio file to play through the speaker,
+            indicating a response to the detected loud sound.
+            Audio Playback Control:
+            The Arduino controls the playback of audio files on the MP3 module by
+            sending serial commands to select and play the desired audio files.
+            The audio amplifier amplifies the audio signal from the MP3 module,
+            ensuring clear and audible sound output through the speaker.
+            Volume Control:
+            he system includes volume control functionality, allowing users to adjust
+            the volume level of the audio output using predefined gestures or voice
+            commands.
+             The Arduino modifies the volume settings on the MP3 </p>
+<p>HARDWARE IMPLEMENTATION</p>
+<p>Hardware Components
+    Flex Sensors:
+    Ten flex sensors are connected to the analog input pins (A0 to A9) of the
+    Arduino microcontroller.
+    These sensors change their resistance based on the degree of bend,
+    allowing them to detect and measure various bending gestures.
+     Arduino Microcontroller:
+    The Arduino serves as the central processing unit of the system, receiving
+    input signals from the flex sensors and microphone, and controlling the
+    audio playback through the MP3 module and audio amplifier.
+     MP3-TF-16P MP3 SD Card Module:
+    This module stores pre-recorded audio files corresponding to different
+    gestures and loud sounds.
+    The Arduino communicates with the MP3 module via a serial connection
+    to trigger the playback of specific audio files based on the sensor inputs
+    and microphone readings.
+    PAM84403 Audio Amplifier:
+    The audio amplifier is connected to the MP3 module and speaker to boost
+    the audio signal, ensuring clear and audible sound output.
+    Electret Microphone (MIC):
+    The microphone detects loud sounds and sends an analog signal to the
+    Arduino.
+    When a sound above a predefined threshold is detected, the Arduino
+    triggers a specific audio file to play through the speaker.
+
+</p>   <br>
+            <p><B>Project 2:Predictive Model for determining whether a person should be granted loan or not</B></p>
+            <p>The significance is that our smart tool makes it easier for banks to decide who they should lend money to and 
+                and who they should'nt.This not only protects the bank from losing money also ensures that people who afford money
+                can afford to pay it back</p>
+
+                  <ul>
+                    <li>NumPy</li>
+                    <li>Pandas</li>
+                    <li>matplot.lib</li>
+                    <li>seaborn</li></ul>
+
+        </center><br><br>
+
+        <div>
+            <center>
+                <B>Contact me.</B>
+                <p>Email: prajwalgh23@gmail.com</p>
+                <p>Phone Number: +91 9686512710</p>
+                <p>&copy;2024 </p>
+        
+        
+            </center>
+        </div>
+    
+</body>
+</html>
